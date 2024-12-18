@@ -8,9 +8,12 @@
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
-				"${file}",
-				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"main.cpp", // Include main.cpp
+				// Include source files
+				"src/csvreader.cpp", 
+				"src/sortsearch.cpp",
+                "-I", "include", // Include the header directory
+                "-o", "main" // Output executable
 			],
 			"options": {
 				"cwd": "${fileDirname}"

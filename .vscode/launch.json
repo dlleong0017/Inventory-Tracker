@@ -13,7 +13,9 @@
             "stopAtEntry": false,
             "cwd": "C:/Users/dlleo/OneDrive/Documents/Inventory/Inventory-Tracker",
             "environment": [],
-            "console": "externalTerminal"
+            "externalConsole": false, // Use integrated terminal
+            "MIMode": "gdb", // Debugger mode
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe" // Path to gdb
         }
 
     ]

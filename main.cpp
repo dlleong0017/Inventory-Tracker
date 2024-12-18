@@ -1,5 +1,3 @@
-//hello
-//This is my first commit
 #include <iostream>
 
 using namespace std;
